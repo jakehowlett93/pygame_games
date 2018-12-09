@@ -1,7 +1,6 @@
 import pygame
 import random
 
-
 #colours
 white = [255, 255, 255]
 black = [0, 0, 0]
@@ -54,7 +53,6 @@ class Ball(pygame.sprite.Sprite):
         self.y_speed = 4
         self.rect.x = 200
         self.rect.y = 30
-        self.direction = 0
 
     def update(self, x_speed):
         '''
