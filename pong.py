@@ -27,14 +27,13 @@ class Paddle(pygame.sprite.Sprite):
         '''
         input: int
         updates the position of the paddles
-        also checks to make sure paddles dont move past the top or bottom boundry
         '''
         self.rect.y += change_y
 
 
     def check_boundaries(self):
         '''
-        stops paddle moving pass the top and bottom of the screen
+        stops paddle moving past the top and bottom of the screen
         '''
         if self.rect.y > screen_height - self.height:
             self.rect.y = screen_height - self.height
