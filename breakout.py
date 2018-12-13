@@ -149,7 +149,6 @@ def create_bricks(start, stop, jump):
     input: 3 tuples
     initiates rows and columns of bricks
     '''
-    #initiate brick objects
     for x in range(start[0], stop[0], jump[0]):
         for y in range(start[1], stop[1], jump[1]):
             brick = Brick(x, y)
