@@ -165,7 +165,7 @@ screen_height = 800
 screen_center = ((screen_width / 2), (screen_height / 2))
 screen = pygame.display.set_mode((screen_width, screen_height))
 screen.fill(black)
-pygame.display.set_caption('Breakout')
+pygame.display.set_caption('Space Invaders')
 
 #set up variables
 paddle_speed = 0
